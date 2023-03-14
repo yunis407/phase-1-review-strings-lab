@@ -5,15 +5,15 @@
     "passes": 9,
     "pending": 0,
     "failures": 1,
-    "start": "2023-02-07T07:54:30.607Z",
-    "end": "2023-02-07T07:54:30.974Z",
-    "duration": 367
+    "start": "2023-03-14T11:30:35.924Z",
+    "end": "2023-03-14T11:30:36.313Z",
+    "duration": 389
   },
   "tests": [
     {
       "title": "is defined",
       "fullTitle": "index.js currentUser is defined",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -41,7 +41,7 @@
     {
       "title": "contains \"WELCOME TO FLATBOOK, \"",
       "fullTitle": "index.js excitedWelcomeMessage contains \"WELCOME TO FLATBOOK, \"",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -62,13 +62,13 @@
     {
       "title": "contains \"Welcome, \"",
       "fullTitle": "index.js shortGreeting contains \"Welcome, \"",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
-        "message": "expected 'welcome,S!' to contain 'Welcome, '",
+        "message": "expected 'Welcome,S!' to contain 'Welcome, '",
         "showDiff": false,
-        "actual": "welcome,S!",
-        "stack": "AssertionError: expected 'welcome,S!' to contain 'Welcome, '\n    at Context.<anonymous> (test/indexTest.js:41:37)\n    at processImmediate (node:internal/timers:466:21)"
+        "actual": "Welcome,S!",
+        "stack": "AssertionError: expected 'Welcome,S!' to contain 'Welcome, '\n    at Context.<anonymous> (test/indexTest.js:41:37)\n    at processImmediate (node:internal/timers:466:21)"
       }
     },
     {
@@ -81,7 +81,7 @@
     {
       "title": "ends with an exclamation point",
       "fullTitle": "index.js shortGreeting ends with an exclamation point",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
@@ -91,13 +91,13 @@
     {
       "title": "contains \"Welcome, \"",
       "fullTitle": "index.js shortGreeting contains \"Welcome, \"",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
-        "message": "expected 'welcome,S!' to contain 'Welcome, '",
+        "message": "expected 'Welcome,S!' to contain 'Welcome, '",
         "showDiff": false,
-        "actual": "welcome,S!",
-        "stack": "AssertionError: expected 'welcome,S!' to contain 'Welcome, '\n    at Context.<anonymous> (test/indexTest.js:41:37)\n    at processImmediate (node:internal/timers:466:21)"
+        "actual": "Welcome,S!",
+        "stack": "AssertionError: expected 'Welcome,S!' to contain 'Welcome, '\n    at Context.<anonymous> (test/indexTest.js:41:37)\n    at processImmediate (node:internal/timers:466:21)"
       }
     }
   ],
@@ -105,7 +105,7 @@
     {
       "title": "is defined",
       "fullTitle": "index.js currentUser is defined",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -133,7 +133,7 @@
     {
       "title": "contains \"WELCOME TO FLATBOOK, \"",
       "fullTitle": "index.js excitedWelcomeMessage contains \"WELCOME TO FLATBOOK, \"",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -161,7 +161,7 @@
     {
       "title": "ends with an exclamation point",
       "fullTitle": "index.js shortGreeting ends with an exclamation point",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
